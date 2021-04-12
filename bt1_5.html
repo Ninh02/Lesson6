@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai5</title>
+</head>
+<body>
+<script>
+    let diemkiemtra=parseFloat(prompt('nhap diem kiem tra'));
+    let diemgiuaki=parseFloat(prompt('nhap diem giua ki'));
+    let diemcuoiki=parseFloat(prompt('nhap diem cuoi ki'));
+    let a=(diemkiemtra+(diemgiuaki*2)+(diemcuoiki*3))/6;
+    if (a>8.0){
+        document.write(a+ 'xep loai gioi');
+    }else if (a>6.5){
+        document.write(a+ 'xep loai kha');
+    }else if (a>5.0) {
+        document.write(a+ 'xep loai trung binh');
+    }else {
+        document.write(a+ 'xep loai yeu');
+    }
+</script>
+
+</body>
+</html>
